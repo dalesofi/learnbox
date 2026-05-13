@@ -1,0 +1,37 @@
+/**
+ * Learnbox design tokens — edit here to tune look without touching components.
+ * Imported before index.css in main.tsx.
+ */
+:root {
+  /* Brand / surfaces (landing) */
+  --lb-accent: #5b8def;
+  --lb-accent-soft: rgba(91, 141, 239, 0.12);
+  --lb-surface-muted: #f3f6fb;
+  --lb-surface-card: #ffffff;
+  --lb-border-soft: #e2e8f0;
+
+  /* Spacing scale */
+  --lb-space-xs: 0.5rem;
+  --lb-space-sm: 1rem;
+  --lb-space-md: 1.5rem;
+  --lb-space-lg: 2.5rem;
+  --lb-space-xl: 4rem;
+
+  /* Radius */
+  --lb-radius-md: 12px;
+  --lb-radius-lg: 20px;
+
+  /* Type (complements index.css --sans) */
+  --lb-text-lead: 1.125rem;
+  --lb-max-prose: 38rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --lb-accent: #7eb0ff;
+    --lb-accent-soft: rgba(126, 176, 255, 0.15);
+    --lb-surface-muted: #1a1f2e;
+    --lb-surface-card: #222833;
+    --lb-border-soft: #343c4d;
+  }
+}
