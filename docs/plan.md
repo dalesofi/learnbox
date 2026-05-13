@@ -1,6 +1,6 @@
 # LEARNBOX — Engineering plan (MVP foundations)
 
-Execution-oriented plan for the team. Product scope and rationale live in [`learnbox-mvp.md`](learnbox-mvp.md). Technical contracts, mock shapes, and swap points live in [`docs/technical-foundation.md`](docs/technical-foundation.md).
+Execution-oriented plan for the team. Product scope and rationale live in [`learnbox-mvp.md`](learnbox-mvp.md). Technical contracts, mock shapes, and swap points live in [`technical-foundation.md`](technical-foundation.md). For **who owns copy, palette, and visuals** vs what engineering ships next, see [`next-steps.md`](next-steps.md).
 
 ---
 
@@ -17,10 +17,11 @@ Execution-oriented plan for the team. Product scope and rationale live in [`lear
 ### M1 — Repository and docs
 
 - [x] Product doc present: `learnbox-mvp.md`
-- [x] Technical foundation: `docs/technical-foundation.md`
+- [x] Technical foundation: `technical-foundation.md`
+- [x] Team handoff (creative vs engineering): `next-steps.md`
 - [x] This plan: `plan.md`
 
-**DoD:** Team can read product + technical + execution plan in one pass.
+**DoD:** Team can read product + technical + execution plan + handoff doc in one pass.
 
 ---
 
@@ -155,3 +156,4 @@ npm run preview
 |---------|------|--------|
 | 0.1 | 2026-05-13 | Initial engineering plan; M2–M3 implemented in repo scaffold. |
 | 0.2 | 2026-05-13 | Landing provider-network narrative and explicit deferral of provider-catalog UX. |
+| 0.3 | 2026-05-13 | Link to `next-steps.md`; fix relative path to technical foundation; M1 includes handoff doc. |
